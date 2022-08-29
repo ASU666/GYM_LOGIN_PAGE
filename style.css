@@ -1,0 +1,75 @@
+body{
+    background-image: url(fitness-1882721_1920.jpg);
+    color: aliceblue;
+    font-family: "Sofia", sans-serif;
+    font-size: larger;
+}
+.navbar {
+    color: antiquewhite;
+    margin-top: 10px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+
+}
+a{
+    flex-direction: column;
+    color: aliceblue;
+    margin: 15px;
+    text-decoration: none;
+}
+a:hover{
+    color: greenyellow;
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    margin-top: 10px;
+   
+}
+.right{
+    margin-top: 20px;
+}
+.left img {
+    width: 100px;
+    margin-left: 16px;
+}
+.btn{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.btn:hover {
+     color:red;
+}
+.left:hover{
+    color: greenyellow;
+}
+h3:hover{
+    color: greenyellow;
+}
+.form {
+    border: 2px solid white;
+    height: 300px;
+    width: 600px;
+    margin-left: 133px;
+    padding: 7px;
+}
+.inp{
+    margin: 10px;
+}
+textarea{
+    margin: 24px;
+}
+.ta button{
+    display: block;
+    margin-left: 650px;;
+}

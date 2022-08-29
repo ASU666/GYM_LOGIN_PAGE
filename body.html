@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="left">
+            <img src="sports-3735288_640.png" alt=" No image">
+            <div>The Fitness Club
+            </div>
+            <div style="text-align:center ;">(TFC)</div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li class="item"> <a href="#" target="_blank">Home</a></li>
+                <li class="item"> <a href="#" target="_blank">Service</a></li>
+                <li class="item"> <a href="#" target="_blank">About</a></li>
+                <li class="item"> <a href="#" target="_blank">Contact Us</a></li>
+            </ul>
+
+        </nav>
+        <div class="right">
+            <button class="btn">Email Us</button>
+            <button class="btn">Support</button>
+        </div>
+    </div>
+    <h3 style="margin-left : 130px ;  display: inline;">Sign Up To Join Now .......</h3>
+    <div class="form">
+        <form action="backend.php">
+            <div class="inp">
+                <label for="Name">Name</label>
+                <input type="text" placeholder="Enter Your Name" , id="Name">
+
+            </div>
+            <div class="inp">
+                <label for="Email">Email</label>
+                <input type="email" placeholder="Example@gmail.com" , id="Email">
+            </div>
+            <div class="inp"><label for="Age">Age</label>
+                <input type="date" placeholder="Enter Age" , id="Age">
+            </div>
+            <div class="inp">
+                Male <input type="radio" name="MyGender">
+                FeMale <input type="radio" name="MyGender">
+            </div>
+            <div class="inp">
+                <label for="Locality">Locality</label>
+                <input type="text" placeholder="Enter Your Current Address" , id="Locality">
+            </div>
+            <button class="btn" style="margin-left: 100px;"> <input type="reset" name="Reset Now"
+                    value="Reset"></button>
+            <button class="btn" style="margin-left: 100px;"><input type="button" value="Submit"></button>
+        </form>
+
+
+    </div>
+    <div class="ratings">
+        <label for="Ratings">Ratings</label>
+        <select name="Stars" id="Ratings">
+            <option value="1">1*</option>
+            <option value="2">2*</option>
+            <option value="3">3*</option>
+            <option value="4">4*</option>
+            <option value="5">5*</option>
+        </select>
+    </div>
+    <div class="ta">
+        <textarea name="Opinion" placeholder="Give Your Precious Feedback" cols="90" rows="10"></textarea>
+        <button>Submit</button>
+    </div>
+    
+
+
+</body>
+
+</html>
